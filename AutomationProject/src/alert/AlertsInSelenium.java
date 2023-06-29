@@ -69,6 +69,7 @@ public class AlertsInSelenium {
 		//alert 4 Sending Text in TextField of Alert
 		
 		driver.findElement(By.id("promtButton")).click();
+		
 		Thread.sleep(5000);
 		
 		a1=driver.switchTo().alert();
