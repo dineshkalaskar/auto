@@ -72,7 +72,7 @@ public class AlertsInSelenium {
 		Thread.sleep(5000);
 		
 		a1=driver.switchTo().alert();
-		a1.sendKeys("Vinay Salunke");
+		a1.sendKeys("dinesh kalaskar");
 		a1.accept();
 		
 		WebElement result1=driver.findElement(By.id("promptResult"));
